@@ -5125,6 +5125,3 @@ He positions the technology as a tool — powerful, but secondary to trust, reli
 🔹 A vector-friendly chunked version for embedding
 🔹 A printable PDF brand brief
 🔹 A mini website template containing all this
-Just tell me what you want next.
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info.

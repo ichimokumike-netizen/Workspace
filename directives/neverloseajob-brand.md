@@ -1366,7 +1366,7 @@ A patient, polite, professional voice — trained to sound like your business.
 Appointments made using your rules, availability, and preferences.
 
 #### Respect for Your Business and Your People
-We support your staff — never replace them.
+People are the heart of your business. We support your team. 
 
 #### Private & Secure Interactions
 Customer info is handled responsibly, safely, and confidentially.
@@ -1391,7 +1391,7 @@ Most "automation tools" are designed to cut people out. NeverLoseAJob is designe
 
 This guarantee is our commitment to you:
 
-#### 1. We Support Your Staff — We Never Replace Them
+#### 1. We Support Your Staff — We 
 
 Your office person — whether it's your spouse, daughter, niece, or long-time employee — is the heart of your business.
 
@@ -1402,8 +1402,7 @@ We protect them from:
 - repetitive intake
 - juggling five tasks at once
 - burnout
-
-Your people stay the voice, soul, and warmth of your company. We take the pressure off — not the paycheck.
+Your staff is the voice, soul, and warmth of your company. We free them from repetitive tasks that technology is good at doing, so they can do the valuable work only humans can do.
 
 #### 2. Your Customers Will Never Feel "Automated"
 

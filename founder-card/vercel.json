@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "src": "/FounderCard",
+            "dest": "/FounderCard.html"
+        },
+        {
+            "src": "/",
+            "dest": "/FounderCard.html"
+        }
+    ]
+}
