@@ -2,144 +2,321 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeverLoseAJob – The 24/7 AI Front Desk for Contractors</title>
-    <meta name="description"
-        content="Stop missing calls and losing money. We provide a 24/7 AI front desk that answers calls, books jobs, and protects your revenue without replacing your staff.">
-    <link rel="stylesheet" href="styles.css">
-    <!-- Favicon (using emoji for now) -->
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+  <meta charset="UTF-8">
+  <title>NeverLoseAJob – Founder Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg: #050608;
+      --card: #0f172a;
+      --accent: #f97316;
+      --accent-soft: rgba(249, 115, 22, 0.12);
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --border-subtle: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #111827, #020617 55%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 560px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.96));
+      border-radius: 18px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.75);
+      padding: 24px 20px 22px;
+      -webkit-backdrop-filter: blur(18px);
+      backdrop-filter: blur(18px);
+    }
+
+    @media (min-width: 480px) {
+      .card {
+        padding: 28px 26px 26px;
+      }
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.18);
+    }
+
+    h1 {
+      font-size: 22px;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    @media (min-width: 480px) {
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    .sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--text-muted);
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+
+    .muted {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .highlight {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 4px;
+    }
+
+    .pill {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+    }
+
+    .pill.accent {
+      border-color: var(--accent-soft);
+      color: var(--accent);
+      background: rgba(249, 115, 22, 0.06);
+    }
+
+    .founder {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border-subtle);
+      flex-wrap: wrap;
+    }
+
+    .founder-photo {
+      flex-shrink: 0;
+      width: 84px;
+      height: 84px;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 2px solid rgba(249, 115, 22, 0.4);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .founder-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .founder-main {
+      font-size: 13px;
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .founder-name {
+      font-weight: 600;
+    }
+
+    .founder-role {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .founder-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .cta-col {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 150px;
+    }
+
+    .btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: none;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #f97316, #fb923c);
+      color: #0b1120;
+      box-shadow: 0 12px 30px rgba(249, 115, 22, 0.45);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 40px rgba(249, 115, 22, 0.55);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px dashed var(--border-subtle);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(15, 23, 42, 0.9);
+    }
+
+    .fineprint {
+      margin-top: 12px;
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .fineprint span {
+      color: var(--accent);
+      font-weight: 500;
+    }
+  </style>
 </head>
 
 <body>
+  <div class="wrap">
+    <div class="card">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Founder Launch • Southwest Michigan
+      </div>
+      <h1>Stop Missing Calls and Losing Money — While Safeguarding the People No Technology Can Replace.</h1>
+      <p class="sub">
+        I’m building a <span class="highlight">24/7 front desk for contractors</span> that answers every call, qualifies
+        customers,
+        and books jobs using the marketing you already paid for — without replacing your people.
+      </p>
 
-    <!-- Navigation -->
-    <header>
-        <div class="container nav-content">
-            <a href="/" class="logo">Never<span>Lose</span>AJob</a>
-            <a href="sms:+12692909389?&body=Hi%20Todd%2C%20I%27d%20like%20to%20get%20a%20demo%20of%20NeverLoseAJob."
-                class="btn btn-primary nav-btn">Get a Demo</a>
+      <div class="section-label">Why this matters</div>
+      <p class="muted">
+        In the trades, the first company to respond usually wins the job. Missed calls don’t just hurt once — they waste
+        the money you already spent to make the phone ring.
+        My goal is simple: <span class="highlight">stop that revenue loss</span> while protecting the staff your
+        business depends on.
+      </p>
+
+      <div class="pill-row">
+        <span class="pill accent">No new ads or lead fees</span>
+        <span class="pill">Supports staff, doesn’t replace them</span>
+        <span class="pill">Answers every call</span>
+        <span class="pill">Qualifies and books jobs</span>
+      </div>
+
+      <div class="section-label">Who I am</div>
+      <p class="muted">
+        I’m <span class="highlight">not</span> a contractor — <strong>you</strong> are the expert in your trade.
+        My background is 20+ years in business systems, software, and treasury for companies of all sizes.
+        I build systems that businesses can trust: reliable, predictable, and people-first.
+      </p>
+
+      <div class="section-label">Founding client offer</div>
+      <p class="muted">
+        Right now I’m inviting a small group of contractors in Southwest Michigan to help test and shape this service as
+        founding clients.
+      </p>
+      <p class="muted">
+        <span class="highlight">No upfront cost. No payment for the first 60 days. Simple 3-month minimum. 90-day
+          money-back guarantee.</span>
+        Nothing goes live until you’ve seen it, tested it, and approved how it treats your customers and your team.
+      </p>
+
+      <div class="founder">
+        <div class="founder-photo">
+          <img src="founder_headshot.png" alt="Photo of Todd Semelbauer, founder of NeverLoseAJob">
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Stop Missing Calls and <br><span class="highlight">Losing Money.</span></h1>
-            <p>A 24/7 front-desk service for contractors that answers every call, qualifies every lead, and books real
-                jobs automatically — without replacing your team.</p>
-            <div class="cta-group">
-                <a href="sms:+12692909389?&body=Hi%20Todd%2C%20I%27d%20like%20to%20get%20a%20demo%20of%20NeverLoseAJob."
-                    class="btn btn-primary">Get a 10-Minute Demo</a>
-                <a href="#how-it-works" class="btn btn-secondary">How It Works</a>
-            </div>
+        <div class="founder-main">
+          <div class="founder-name">Todd Semelbauer</div>
+          <div class="founder-role">Founder, NeverLoseAJob</div>
+          <div class="founder-meta">
+            Business Systems Architect • Certified Treasury Professional • 20+ yrs in software & operations
+          </div>
         </div>
-    </section>
-
-    <!-- The Problem -->
-    <section id="problem">
-        <div class="container">
-            <div class="text-center mx-auto max-w-700">
-                <h2 class="section-header">
-                    The Silent Revenue Killer</h2>
-                <h3 class="section-title">If you don't pick up, they call the next guy.</h3>
-                <p>Contractors lose <strong>20–40% of potential jobs</strong> simply because they are busy on a job site
-                    when the phone rings. Voicemail is where leads go to die.</p>
-            </div>
+        <div class="cta-col">
+          <a class="btn btn-primary"
+            href="sms:+12692909389?&body=Hi%20Todd%2C%20I%27d%20like%20to%20learn%20more%20about%20the%20Founding%20Client%20program.">
+            Text Todd to Learn More
+          </a>
+          <a class="btn btn-ghost" href="tel:+12692909389">
+            Or tap to call
+          </a>
         </div>
-    </section>
+      </div>
 
-    <!-- The Solution (4 Pillars) -->
-    <section id="how-it-works">
-        <div class="container">
-            <h2 class="text-center">The Never Lose a Job System™</h2>
-            <div class="grid">
-                <!-- Pillar 1 -->
-                <div class="card">
-                    <div class="card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3>Answers Every Call</h3>
-                    <p>24/7 coverage with a professional AI receptionist that sounds like a real person. No more
-                        voicemail tag.</p>
-                </div>
-                <!-- Pillar 2 -->
-                <div class="card">
-                    <div class="card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Qualifies Leads</h3>
-                    <p>Filters out tire-kickers and spam. We ensure you only spend time on customers ready to buy.</p>
-                </div>
-                <!-- Pillar 3 -->
-                <div class="card">
-                    <div class="card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                            <line x1="16" y1="2" x2="16" y2="6"></line>
-                            <line x1="8" y1="2" x2="8" y2="6"></line>
-                            <line x1="3" y1="10" x2="21" y2="10"></line>
-                        </svg>
-                    </div>
-                    <h3>Books Jobs</h3>
-                    <p>Schedules appointments directly into your calendar based on your real availability and
-                        preferences.</p>
-                </div>
-                <!-- Pillar 4 -->
-                <div class="card">
-                    <div class="card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                    </div>
-                    <h3>Follows Up</h3>
-                    <p>Relentless automatic follow-up on quotes and review requests until the job is done.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Founder Trust Section -->
-    <section class="founder-section">
-        <div class="container">
-            <div class="founder-container">
-                <img src="founder_headshot.png" alt="Todd Semelbauer" class="founder-img">
-                <div class="founder-content">
-                    <span class="founder-role">A Note from the Founder</span>
-                    <h2>"I'm not a marketing agency."</h2>
-                    <p>I'm Todd Semelbauer. My background is 20+ years in business systems and treasury. I don't sell
-                        "leads" or "traffic."</p>
-                    <p>I build systems that protect the revenue you've already earned. My goal is to give you a
-                        reliable, people-first front office that works 24/7, so you can focus on the trade you mastered.
-                    </p>
-                    <a href="sms:+12692909389?&body=Hi%20Todd%2C%20I%27d%20like%20to%20learn%20more%20about%20the%20Founding%20Client%20program."
-                        class="btn btn-primary">Text Me Directly</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 NeverLoseAJob. All rights reserved.</p>
-            <p class="footer-sub">Southwest Michigan • 24/7 Front Desk Service</p>
-        </div>
-    </footer>
-
+      <p class="fineprint">
+        This is a <span>people-first</span> service. The technology is powerful, but it’s still just a tool.
+        Trust, accountability, and your team come first — always.
+      </p>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -4657,10 +4657,15 @@ If you’d like, next I can:
 Create a printable one-page PDF version of this Founder Card.
 Draft a LinkedIn about section that matches this positioning. 
 You said:
+
+
+
+11/28/2025
 Hey, so how do you recommend that we proceed here? 
 ChatGPT said:
-Thought for 9s
+
 Great question. You’re in a really good spot to start talking to people now, so I’d treat this like a mini launch.
+
 Here’s how I’d proceed, in order.
 1. Get your “Founder Card” live somewhere
 Goal: Have a real link you can text and a QR that opens a legit page.
@@ -4703,7 +4708,7 @@ No billing for first 60 days
 Billing starts month 3
 If after 90 days they’re not happy → 100% money-back guarantee
 Positioning:
-“We’re not a marketing company, not a call center. You already paid for the leads. We help you stop losing the jobs you already earned.”
+“You already paid for the leads. We help you stop losing the jobs you already earned.”
 Have this in your head so you never stumble when they ask, “So how does it work, money-wise?”
 4. Plan your first outreach wave (low pressure, high trust)
 Goal: 5–10 real conversations with contractors you know or can warm-intro.
@@ -4722,7 +4727,7 @@ People who know you’re sharp and honest
 Use your “I’m not a contractor, you are the expert” script:
 Lead with respect for their expertise
 Position yourself as expert in systems + software
-Frame this as: “I’m building something and need your expertise, not trying to sell you something today.”
+Frame this as: “I’m building something and need your expertise.”
 At the end of any good conversation:
 Have them scan the SMS QR → they text you
 Or you text them the follow-up summary + link
