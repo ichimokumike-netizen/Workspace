@@ -5,6 +5,8 @@
 # Google OAuth credentials
 credentials.json
 token.json
+oauth_credentials.json
+token.pickle
 
 # Temporary files
 .tmp/

@@ -1,12 +1,16 @@
 # Core dependencies for execution layer
 python-dotenv==1.0.0
 
-# Add your project-specific dependencies below
-# Example:
-# requests==2.31.0
-# pandas==2.0.3
-# google-auth==2.23.0
-# google-auth-oauthlib==1.1.0
-# google-auth-httplib2==0.1.1
-# google-api-python-client==2.100.0
+# Web scraping dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Google Sheets integration
+gspread==5.12.0
+google-auth==2.23.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# Other dependencies
 qrcode[pil]
